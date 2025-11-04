@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salah Hany | Software Tester</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">Hi, I'm <span class="text-yellow-300">Salah Hany</span></h1>
+            <h2 class="text-xl md:text-3xl mb-8 animate-fade-in delay-100">Software Tester from Egypt</h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-12 animate-fade-in delay-200">I ensure every product release is reliable, user-focused, and bug-free.</p>
+            <div class="animate-fade-in delay-300">
+                <a href="#contact" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold mr-4 hover:bg-gray-100 transition">Hire Me</a>
+                <a href="#" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                <span class="bg-blue-100 px-4 py-2 rounded-lg">About Me</span>
+            </h2>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 bg-blue-100 rounded-full absolute -z-10 top-4 left-4"></div>
+                        <img src="http://static.photos/technology/640x360/42" alt="Salah Hany" class="w-64 h-64 object-cover rounded-full border-4 border-white shadow-xl">
+                    </div>
+                </div>
+                <div class="md:w-2/3">
+                    <p class="text-lg mb-6 leading-relaxed">
+                        I'm a dedicated software tester with hands-on experience in functional, regression, and API testing. I'm passionate about quality assurance and continuous improvement across digital products.
+                    </p>
+                    <p class="text-lg mb-8 leading-relaxed">
+                        With a keen eye for detail and a systematic approach, I help teams deliver high-quality software by identifying issues early in the development cycle and implementing robust testing strategies.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">5+ Years Experience</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">50+ Projects</span>
+                        <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">100% Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                <span class="bg-blue-100 px-4 py-2 rounded-lg">My Skills</span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="code" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Selenium</h3>
+                    <p class="text-gray-600">Automated browser testing framework</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="send" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Postman</h3>
+                    <p class="text-gray-600">API development and testing</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="database" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">SQL Server</h3>
+                    <p class="text-gray-600">Database testing and validation</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="cpu" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">REST Assured</h3>
+                    <p class="text-gray-600">Java library for API testing</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="check-circle" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">API Testing</h3>
+                    <p class="text-gray-600">Endpoint validation and verification</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="zap" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Test Automation</h3>
+                    <p class="text-gray-600">Creating reliable test suites</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="search" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Manual Testing</h3>
+                    <p class="text-gray-600">Exploratory and user testing</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="list" class="w-10 h-10 text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">Test Case Design</h3>
+                    <p class="text-gray-600">Comprehensive test coverage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                <span class="bg-blue-100 px-4 py-2 rounded-lg">My Services</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="service-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i data-feather="check-square" class="w-6 h-6 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Manual & Automation Testing</h3>
+                    </div>
+                    <p class="text-gray-600">Comprehensive testing solutions combining human expertise with automated efficiency to ensure maximum coverage and reliability.</p>
+                </div>
+                <div class="service-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i data-feather="link" class="w-6 h-6 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">API Testing & Validation</h3>
+                    </div>
+                    <p class="text-gray-600">Thorough testing of your application's API layer to ensure proper functionality, reliability, performance, and security.</p>
+                </div>
+                <div class="service-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i data-feather="file-text" class="w-6 h-6 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Test Case Design & Execution</h3>
+                    </div>
+                    <p class="text-gray-600">Creating detailed, reusable test cases that cover all requirements and executing them systematically to identify defects.</p>
+                </div>
+                <div class="service-card bg-gray-50 p-8 rounded-xl hover:shadow-lg transition">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i data-feather="alert-triangle" class="w-6 h-6 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Bug Reporting & Tracking</h3>
+                    </div>
+                    <p class="text-gray-600">Detailed defect documentation with clear reproduction steps, expected vs actual results, and severity classification.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                <span class="bg-blue-100 px-4 py-2 rounded-lg">Featured Projects</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="http://static.photos/technology/640x360/101" alt="E-commerce Platform Testing" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">E-commerce Platform Testing</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive testing of a large-scale online shopping platform including payment gateway integration.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Selenium</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Postman</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">JIRA</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">
+                            View Details <i data-feather="arrow-right" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="http://static.photos/technology/640x360/102" alt="Banking App Automation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Banking App Automation</h3>
+                        <p class="text-gray-600 mb-4">Automated test suite for a mobile banking application with 95% test coverage.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Appium</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Java</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">TestNG</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">
+                            View Details <i data-feather="arrow-right" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="http://static.photos/technology/640x360/103" alt="Healthcare API Testing" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Healthcare API Testing</h3>
+                        <p class="text-gray-600 mb-4">Security and performance testing for a HIPAA-compliant healthcare API system.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">REST Assured</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">OWASP</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">JMeter</span>
+                        </div>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline flex items-center">
+                            View Details <i data-feather="arrow-right" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 px-6 bg-blue-600 text-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                <span class="bg-blue-700 px-4 py-2 rounded-lg">Client Testimonials</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-blue-700 p-8 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/201" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Ahmed Mohamed</h4>
+                            <p class="text-blue-200 text-sm">CTO at TechSolutions</p>
+                        </div>
+                    </div>
+                    <p class="italic">"Salah's attention to detail helped us catch critical bugs before production. His comprehensive test cases improved our overall quality by 40%."</p>
+                </div>
+                <div class="bg-blue-700 p-8 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/202" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Nadia Ali</h4>
+                            <p class="text-blue-200 text-sm">Product Manager at FinTech Inc</p>
+                        </div>
+                    </div>
+                    <p class="italic">"Working with Salah was a game-changer for our QA process. His automation scripts saved us hundreds of manual testing hours each sprint."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                <span class="bg-blue-100 px-4 py-2 rounded-lg">Get In Touch</span>
+            </h2>
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-bold mb-4">Contact Information</h3>
+                    <p class="mb-8">Feel free to reach out if you're looking for a detail-oriented software tester for your project or have any questions.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="mail" class="w-5 h-5 text-blue-600"></i>
+                            </div>
+                            <span>salah.hany@example.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="phone" class="w-5 h-5 text-blue-600"></i>
+                            </div>
+                            <span>+20 123 456 7890</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="map-pin" class="w-5 h-5 text-blue-600"></i>
+                            </div>
+                            <span>Cairo, Egypt</span>
+                        </div>
+    <script>
+        feather.replace();
+    </script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
